@@ -1,7 +1,25 @@
 aid: pricebaba
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pricebaba.png
 name: PriceBaba
-description: PriceBaba is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PriceBaba is an India-based consumer price-comparison and gadget research
+  platform, founded in 2012 and headquartered in Mumbai. It helps shoppers compare
+  mobile phones, consumer electronics and other gadgets by aggregating specifications,
+  expert and user reviews, and prices across online and offline local retail stores,
+  so buyers can find the best available deal near them. PriceBaba is backed by 500
+  Global (formerly 500 Startups). No public developer program or API surface was discoverable
+  during this enrichment pass. The website is served behind Cloudflare and blocks
+  automated access, and no api.pricebaba.com host resolves.
 url: https://raw.githubusercontent.com/api-evangelist/pricebaba/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,21 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Price Comparison
+- Ecommerce
+- Consumer Electronics
+- Mobile Phones
+- Gadgets
+- India
+- Reviews
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pricebaba-domain-security.yml
 - type: Website
   url: https://pricebaba.com
