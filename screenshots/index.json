@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "pricebaba",
+    "captured_at": "2026-10-11T192651",
+    "source_url": "https://pricebaba.com",
+    "source_type": "Website",
+    "file": "pricebaba-2026-10-11T192651.png",
+    "bytes": 97930,
+    "capture": "playwright-local"
+  }
+]
