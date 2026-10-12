@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/pricebaba/integrations
+- https://n8n.io/integrations/pricebaba/
+- https://composio.dev/toolkits/pricebaba
+- https://monid.ai/tools/pricebaba
+checked:
+- https://composio.dev/toolkits/pricebaba
+- https://monid.ai/tools/pricebaba
+- https://n8n.io/integrations/pricebaba/
+- https://zapier.com/apps/pricebaba/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
